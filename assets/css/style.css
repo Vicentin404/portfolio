@@ -28,6 +28,50 @@ body {
 }
 
 
+@media (max-width: 600px)
+{
+  .img01
+   {
+	display: none;
+   }
+}
+
+@media (max-width: 600px)
+{
+	#logo{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		width: 100%;
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	.span9{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		width: 100%;
+		margin-left: -10px;
+		margin-bottom: 80px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#btn{
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		width: 100%;
+		margin-left: -10px;
+		margin-bottom: 80px;
+	}
+}
+
+
 #sobre {
 	padding-top: 30px;
 	text-align: center;
@@ -247,13 +291,6 @@ img {
 }
 
 
-.span3 {
-	padding-left: 80px;
-}
-
-#pro {
-	padding-left: 80px;
-}
    
 #logo {  
 	padding: 45px 0 43px 0;
